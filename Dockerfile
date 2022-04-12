@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 MAINTAINER manu@gmail.com
 RUN yum install -y httpd
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page247/kindle.zip /var/www/html/
